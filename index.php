@@ -4,6 +4,7 @@
 	<title>Project 3</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/styles.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Armata|Noticia+Text:400i" rel="stylesheet"> 
 </head>
 <body>
 

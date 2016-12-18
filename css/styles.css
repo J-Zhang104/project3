@@ -11,6 +11,7 @@ body {
 .container {
 	max-width: 960px;
 	margin: auto;
+	font-family: 'Noticia Text', serif;
 }
 
 /*H1 and Nav Bar*/
@@ -92,6 +93,7 @@ h2 {
 }
 
 .description {
+	font-family: 'Armata', sans-serif;
 	text-align: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
