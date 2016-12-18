@@ -1,0 +1,110 @@
+/*Body*/
+
+body {
+	background-image: url("../images/778283.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*Container*/
+
+.container {
+	max-width: 960px;
+	margin: auto;
+}
+
+/*H1 and Nav Bar*/
+
+h1 {
+	color: #14cbd0;
+	display: inline-block;
+	float: left;
+
+}
+
+nav li {
+	display: inline-block;
+	margin: 2px;
+	padding: 10px;
+	border-style: inset;
+	border-width: 2px;
+	border-color: #9400d3;
+}
+
+nav ul {
+	float: right;
+}
+
+a:hover {
+	color: #00db6e;
+}
+
+/*Big Image*/
+
+#img1 {
+	max-width: 960px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	opacity: 0.8
+}
+
+/*Article and Aside*/
+
+article, aside {
+	display: table-cell;
+}
+
+article {
+	text-align: left;
+	width: 60%;
+	padding-right: 20px;
+}
+
+aside {
+	text-align: right;
+	width: 40%;
+	padding-left: 20px;
+}
+
+h2 {
+	color: #6125c1;
+}
+
+/*Accomplishments*/
+
+#part2 h3 {
+	color: #B0011B;
+}
+
+#labs li {
+	color: #0000ff;
+}
+
+#projects li {
+	color: #0000ff;
+}
+
+#img2, #img3 {
+	display: block;
+	max-width: 80%;
+	border-radius: 10px;
+}
+
+.description {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#img4 {
+	display: block;
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+/*Highslide*/
+
+.highslide-gallery {
+	display: inline-block;
+}
