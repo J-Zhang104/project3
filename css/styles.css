@@ -23,6 +23,10 @@ h1 {
 
 }
 
+.fb-like {
+	display: table-cell;
+}
+
 nav li {
 	display: inline-block;
 	margin: 2px;
@@ -38,6 +42,11 @@ nav ul {
 
 a:hover {
 	color: #00db6e;
+}
+
+.current {
+	background-color: turquoise;
+	color: white;
 }
 
 /*Big Image*/
@@ -105,8 +114,10 @@ h2 {
 	border-radius: 10px;
 }
 
-/*Highslide*/
+/*Contact Form*/
 
-.highslide-gallery {
-	display: inline-block;
+#img5 {
+	display: block;
+	max-width: 960px;
+	margin: auto;
 }

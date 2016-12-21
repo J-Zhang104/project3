@@ -4,7 +4,7 @@
 	<title>Project 3</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/styles.css"> 
-	<link href="https://fonts.googleapis.com/css?family=Armata|Noticia+Text:400i" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Armata|Noticia+Text:400i" rel="stylesheet">
 </head>
 <body>
 
@@ -17,7 +17,6 @@
 	<?php include "inc/nav.inc"; ?>
 
 </header>
-
 
 	<img id="img1" src="images/blue.jpg" alt="blue">
 
@@ -76,7 +75,7 @@
 
 <aside>
 
-<p class="description">The labs in this class were challenging, and it took me a great deal of time to work through most of them. Some of the earlier labs were a review of concepts learned in CSC 170, but as new concepts were added, they became much more difficult. Lab 7 was my favorite lab because adding web fonts to a page makes it more unique and demonstrates a higher level of creativity. Lab 11 was my least favorite for several reasons. First, the back-end work on the web server was extremely frustrating because 99% of the time nothing worked. Second, I prefer building a webpage from scratch, rather than use a template and theme provided by Wordpress. Nonetheless, I think Wordpress is an excellent tool, and it has many cool features to play around with.</p>
+<p class="description">The labs in this class were challenging, and it took me a great deal of time to work through most of them. Some of the earlier labs were a review of concepts learned in CSC 170, but as new concepts were added, they became much more difficult. Lab 7 was my favorite lab because adding web fonts to a page makes it more unique and demonstrates a higher level of creativity. Lab 11 was my least favorite because the back-end work on the web server was extremely frustrating and 99% of the time nothing worked. Wordpress was also unresponsive and unwieldy at times. This caused a substantial number of issues, such as the theme disappearing for good and the sidebar not showing up. Nonetheless, I think Wordpress is an good tool to use, and it has many cool features to play around with.</p>
 
 <img id="img4" src="images/775776.jpg" alt="lightning storm">
 
@@ -84,11 +83,7 @@
 
 </section>
 
-<footer>
-
-<h3>Created by Jack Zhang</h3>
-
-</footer>
+<?php include "inc/footer.inc"; ?>
 
 </div>
 

@@ -46,6 +46,8 @@ hs.addSlideshow({
 
 <body>
 
+<div class="container">
+
 <h1>Portfolio</h1>
 
 <?php include "inc/nav.inc"; ?>
@@ -91,5 +93,10 @@ hs.addSlideshow({
 </div>
 
 </div>
+
+<?php include "inc/footer.inc"; ?>
+
+</div>
+
 </body>
 </html>
