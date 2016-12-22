@@ -46,7 +46,7 @@
 
 			<td><?php echo $pages["name"]; ?></td>
 			<td><?php echo $pages["email"]; ?></td>
-			<td><?php echo $pages["phone_number"]; ?></td>
+			<td><?php echo $pages["phone"]; ?></td>
 			<td><?php echo $pages["message"]; ?></td>
 
 		</tr>

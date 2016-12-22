@@ -36,8 +36,6 @@
 
 </header>
 
-<div class="contact-form">
-
 <img id="img5" src="images/747894.jpg" alt="lavender">
 
 <h2>Leave a comment!</h2>
@@ -45,7 +43,7 @@
 <form action="database-write.php" method="post"> 
 
 <div>
-<label for="firstname">Name:</label>
+<label for="name">Name:</label>
 <input type="text" name="name"><br>
 </div>
 
@@ -56,12 +54,12 @@
 </div>
 
 <div>
-<label for="telephone">Phone Number: </label>
+<label for="phone_number">Phone Number: </label>
 <input type="text" name="phonenumber"><br>
 </div>
 
 <div>
-<label for="textarea">Message: </label>
+<label for="message">Message: </label>
 <textarea name="comment"></textarea>
 </div>
 
@@ -70,8 +68,6 @@
 </form><br>
 
 Or go <a href=".">Back to the Index</a>
-
-</div>
 
 <?php include "inc/footer.inc"; ?>
 

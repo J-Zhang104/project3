@@ -1,3 +1,5 @@
+/*Homepage*/
+
 /*Body*/
 
 body {
@@ -21,10 +23,6 @@ h1 {
 	display: inline-block;
 	float: left;
 
-}
-
-.fb-like {
-	display: table-cell;
 }
 
 nav li {
@@ -112,6 +110,23 @@ h2 {
 	display: block;
 	max-width: 100%;
 	border-radius: 10px;
+}
+
+/*Portfolio*/
+
+/*galleria*/
+
+.galleria {
+ 	width: 700px;
+ 	height: 400px;
+ 	background: #000;
+ 	display: inline-block;
+ }
+
+/*links*/
+
+#links {
+	display: inline-block;
 }
 
 /*Contact Form*/

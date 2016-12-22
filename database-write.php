@@ -1,8 +1,9 @@
 <?php
 
-$firstname = Trim(stripslashes($_POST['firstname']));
-$lastname = Trim(stripslashes($_POST['lastname']));
+$name = Trim(stripslashes($_POST['name']));
+$email = Trim(stripslashes($_POST['email']));
 $phone = Trim(stripslashes($_POST['phone']));
+$message = Trim(stripslashes($_POST['message']));
 
 $dbhost = "localhost";
 $dbuser = "urcscon3_yzh167";
@@ -11,7 +12,7 @@ $dbname = "urcscon3_yzh167";
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-$query = "INSERT INTO friends (first_name, last_name, phone) VALUES ('$firstname', '$lastname', '$phone')";
+$query = "INSERT INTO contact (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
 
 $result = mysqli_query($connection, $query);
 
